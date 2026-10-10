@@ -1,0 +1,54 @@
+# Python / Virtual Environments
+kk/
+**/kk/
+venv/
+**/venv/
+.venv/
+**/.venv/
+env/
+**/env/
+ENV/
+**/ENV/
+
+# Python cache / artifacts
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+*.sqlite3
+*.sqlite3-journal
+media/
+
+# Node / React
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+frontend/build/
+**/build/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# IDE / Editor / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
